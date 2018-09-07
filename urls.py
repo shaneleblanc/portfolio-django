@@ -1,15 +1,15 @@
-from django.urls import path
-
+from django.urls import path, include
 import views
 
 # In this example, we've separated out the views.py into a new file
 urlpatterns = [
     path('', views.index, name="home"),
     path('about', views.about, name="about"),
-    path('github-api-example', views.github_api, name="github"),
+    path('github', views.github, name="github"),
     path('contact', views.contact, name="contact"),
-    path('services', views.services, name="services")
-
+    path('services', views.services, name="services"),
+    path('resume', views.resume, name="resume"),
+    path('music', views.music, name="music"),
 
 ]
 
