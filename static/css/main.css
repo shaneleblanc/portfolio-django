@@ -1,0 +1,55 @@
+body {
+  background-image: url("/static/img/asciibobross.png");
+  background-size: 100% 1080px;
+  font-family: 'Tajawal', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+h1 {
+  font-family: 'Tajawal';
+}
+.col {
+  padding-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  opacity: 0.85;
+}
+.col-xs-1 {
+  padding-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+}
+.px-0 {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 60%;
+}
+.navbar-brand {
+  background: linear-gradient(330deg, #e05252 0%, #0094ff 25%, #52e0e0 50%, #9952e0 75%, #d23dff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a {
+  color: #9161ea;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.footer {
+  height: 25px;
+  padding-bottom: 0px;
+  opacity: 0.65;
+  background-color: #f3f3f3;
+  margin: auto;
+  vertical-align: center;
+  horiz-align: center;
+}
