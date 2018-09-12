@@ -74,19 +74,22 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             subject = "Message from contact form shaneleblanc.net"
-            from_email = form.cleaned_data['email']
-            message = form.cleaned_data['message']
+            message = """New message received from %s:
+            %s
+            """ % (form.cleaned_data['email'], form.cleaned_data['message'])
             try:
-                email = EmailMessage(subject, message, from_email, to="shane@xs.vc")
+                email = EmailMessage(subject, message, "shane@xs.vc", to=["shane@xs.vc"])
                 email.send()
             except BadHeaderError:
                 return render(request, "contact.html", {
                     "submitted": True,
-                    "message": "Failure"
-                })('Invalid header found.')
+                    "send_error": True,
+                    "links": nav_links
+                })
             return render(request, "contact.html", {
                 "submitted": True,
-                "message": "Success"
+                "send_error": False,
+                "links": nav_links
             })
     context = {"form": form,
                "links": nav_links}

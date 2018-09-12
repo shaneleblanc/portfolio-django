@@ -2,11 +2,20 @@
 {%  block content %}
 
     {% if submitted %}
-        <h2>Thanks for your message! I will get back to you when I can.</h2>
+        {% if send_error %}
+            <h3>Message could not be sent.</h3>
+            <p>I apologize, we've caught an invalid header error.</p>
+            <p>Please email me directly at <a href="mailto:shane@xs.vc">shane@xs.vc</a></p>
+            <p>Thanks!</p>
+            {% else %}
+                <h3>Message sent.</h3>
+                <p>Thank you!</p>
+                <p>I will get back to you as soon as I can.</p>
+        {% endif %}
 
-        {% else %}
-
+    {% else %}
 <form action="/contact" method="POST" role="form">
+{% csrf_token %}
                 {% if form.subject.errors %}
                     <ol role="alertdialog">
                         {% for error in form.subject.errors %}
