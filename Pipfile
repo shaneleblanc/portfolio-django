@@ -1,14 +1,41 @@
 [[source]]
+url = "https://pypi.org/simple"
 verify_ssl = true
-url = "https://pypi.python.org/simple"
 name = "pypi"
 
 [packages]
-django = "==2.0.1"
-requests = "*"
-markdown = "*"
+pytz = "==2018.5"
+python-slugify = "==1.2.6"
+whitenoise = "==4.0"
+redis = ">=2.10.5"
+django-environ = "==0.4.5"
+django-model-utils = "==3.1.2"
+django-allauth = "==0.37.1"
+django-crispy-forms = "==1.7.2"
+django-redis = "==4.9.0"
+djangorestframework = "==3.8.2"
+coreapi = "==2.3.3"
+ipdb = "==0.11"
+"psycopg2-binary" = "==2.7.5"
+mypy = "==0.620"
+pytest = "==3.8.0"
+pytest-sugar = "==0.9.1"
+"flake8" = "==3.5.0"
+coverage = "==4.5.1"
+django-debug-toolbar = "==1.10.1"
+django-extensions = "==2.1.2"
+pytest-django = "==3.4.2"
+Pillow = "==5.2.0"
+"argon2_cffi" = "==18.3.0"
+Django = "==2.0.8"
+Werkzeug = "==0.14.1"
+Sphinx = "==1.7.9"
+factory_boy = "==2.11.1"
+django_coverage_plugin = "==1.6.0"
+sendgrid = "*"
+Markdown = "*"
+
+[dev-packages]
 
 [requires]
 python_version = "3.6"
-
-[dev-packages]
