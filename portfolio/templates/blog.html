@@ -1,0 +1,19 @@
+<!-- Page Content -->
+
+    {% for content in rendered_posts %}
+       {{ content }}
+    {% endfor %}
+      <!-- Side Widget -->
+</div>
+      <div class="col-xs-6 col-md-4" style="top: 0px;">
+        <div class="card my-4">
+          <h5 class="card-header">Blog Posts</h5>
+          <div class="card-body">
+            {% for post in posts %}
+            <li><a href="#{{ post['title'] | urlencode }}">{{ post.title|e }}</a></li>
+            {% endfor %}
+          </div>
+        </div>
+
+
+</div>
