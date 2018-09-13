@@ -96,7 +96,6 @@ def contact(request):
     return render(request, "contact.html", context)
 
 
-
 def resume(request):
     md = markdown.Markdown(extensions=['markdown.extensions.meta'])
     html = md.convert(open("content/Resume.md").read())
@@ -116,7 +115,6 @@ def music(request):
 
 
 def github(request):
-    # We can also combine Django with APIs
     response = requests.get('https://api.github.com/users/shaneleblanc/repos?sort=updated')
     repos = response.json()
     response2 = requests.get('https://api.github.com/orgs/OpenPledge/repos')
