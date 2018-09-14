@@ -3,7 +3,7 @@ title: Home
 <div class="card">
     <div class="box">
         <div class="img">
-            <img src="">
+            <img src="/static/img/shane_profile.png">
         </div>
         <h2>Shane LeBlanc<br><span>Full Stack Developer</span></h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

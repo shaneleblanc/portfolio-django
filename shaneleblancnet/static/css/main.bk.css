@@ -1,5 +1,5 @@
 body {
-  background-image: url("/static/img/asciibobross.png");
+  background-image: url("/static/img/asciibobross3.png");
   background-size: 100% 1080px;
   font-family: 'Tajawal', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -67,10 +67,14 @@ a:hover {
 .card:hover {
   box-shadow:0 30px 70px rgba(0,0,0,.2);
 }
+.img {
+    opacity: 1;
+}
 .card .box {
   position:absolute;
   top:50%;
   left:0;
+   opacity:1;
   transform:translateY(-50%);
   text-align:center;
   padding:20px;
