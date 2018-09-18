@@ -6,8 +6,7 @@ title: Home
             <img src="/static/img/shane_profile.png">
         </div>
         <h2>Shane LeBlanc<br><span>Full Stack Developer</span></h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et.</p>
+        <p> Bay area artist with a passion for programming and computers.</p>
         <span>
             <ul>
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

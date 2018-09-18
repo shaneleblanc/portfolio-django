@@ -1,6 +1,7 @@
 body {
   background-image: url("/static/img/asciibobross.png");
   background-size: 100% 1080px;
+  background-blend-mode: screen;
   font-family: 'Tajawal', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
@@ -13,7 +14,7 @@ h1 {
 .col {
   padding-top: 20px;
   border: 1px solid #ccc;
-  background-color: rgba(255,255,255,.65);
+  background-color: rgba(255,255,255,.73);
 }
 .col-xs-1 {
   padding-top: 20px;
@@ -62,24 +63,23 @@ a:hover {
   border-radius:10px;
   transition:0.5s;
   background:rgba(255,255,255,1);
+  background-image:gradien
 }
 .card:hover {
   box-shadow:0 30px 70px rgba(0,0,0,.2);
 }
 .img {
   display: inline-block;
+  border: 2px solid darkgrey;
 }
 .card .box {
   position:absolute;
-  top:50%;
+  top:40%;
   left:0;
-  background-image: url('/static/img/clippedpool.png');
-  background-size: 100% 50%;
-  background-repeat: no-repeat;
   background-position-y: top;
   transform:translateY(-50%);
   text-align:center;
-  padding: 30px;
+  padding: 20px;
   box-sizing:border-box;
   width:100%;
   border-radius: initial;
@@ -98,7 +98,7 @@ a:hover {
 .card .box h2 {
   font-size:20px;
   color:#262626;
-  margin:20px auto;
+  margin:5px auto;
 }
 .card .box h2 span {
   font-size:14px;
