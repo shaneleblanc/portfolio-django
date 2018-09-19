@@ -1,5 +1,5 @@
 title: Resume
 
-# Resume page
+# Resume
 
-This page is under construction.
+Please contact me for a copy of my Resume. Thanks! 
