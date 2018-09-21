@@ -32,7 +32,7 @@ h1 {
     width: 70%;
   }
 }
-@meda only screen and (min-width 1440px) {
+@media only screen and (min-width: 1440px) {
   .px-0 {
     width: 50%;
   }
