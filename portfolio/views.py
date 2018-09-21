@@ -28,6 +28,7 @@ def update_navbar():
         navbar_links.append([page['title'], page['title'].lower()])
         #f'''<li class="nav-item"> <a class="nav-link {page['title']}class" href="{page['filename']}"> {page['title']}</a></li>'''
     navbar_links.remove(['Home', 'home'])
+    navbar_links.remove(['Resume', 'resume'])
     navbar_links.append(['GitHub', 'github'])
     #navbar_links.append(['Blog', 'blog'])
     return navbar_links

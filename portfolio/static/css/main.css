@@ -1,5 +1,5 @@
 body {
-  background-image: url("/static/img/asciibobross.png");
+  background: url(/static/img/asciibobross.png);
   background-size: 100% 1080px;
   background-blend-mode: screen;
   font-family: 'Tajawal', sans-serif;
