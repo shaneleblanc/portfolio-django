@@ -24,7 +24,18 @@ h1 {
 .px-0 {
   margin-left: 20vw;
   margin-right: 20vw;
-  width: 60%;
+  width: 100%;
+}
+@media only screen and (min-width: 720px) {
+  /* Desktop screen settings */
+  .px-0 {
+    width: 70%;
+  }
+}
+@meda only screen and (min-width 1440px) {
+  .px-0 {
+    width: 50%;
+  }
 }
 .navbar-brand {
   background: linear-gradient(330deg, #e05252 0%, #0094ff 25%, #52e0e0 50%, #9952e0 75%, #d23dff 100%);
@@ -57,7 +68,7 @@ a:hover {
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:400px;
+  width:50vw;
   min-height:400px;
   box-shadow:0 20px 50px rgba(0,0,0,.1);
   border-radius:10px;

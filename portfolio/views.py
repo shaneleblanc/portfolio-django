@@ -43,7 +43,7 @@ def index(request):
     md = markdown.Markdown(extensions=['markdown.extensions.meta'])
     html = md.convert(open("content/index.md").read())
     context = {"content": html,
-               "page": "home",
+               "page": "Home",
                "links": nav_links,
                }
     return render(request, "base.html", context)
@@ -56,7 +56,7 @@ def about(request):
     md = markdown.Markdown(extensions=['markdown.extensions.meta'])
     html = md.convert(open("content/about.md").read())
     context = {"content": html,
-               "page": "about",
+               "page": "About",
                "links": nav_links}
     return render(request, 'base.html', context)
 
@@ -65,7 +65,7 @@ def services(request):
     md = markdown.Markdown(extensions=['markdown.extensions.meta'])
     html = md.convert(open("content/services.md").read())
     context = {"content": html,
-               "page": "services",
+               "page": "Services",
                "links": nav_links}
     return render(request, 'base.html', context)
 
@@ -95,7 +95,7 @@ def contact(request):
                 "links": nav_links
             })
     context = {"form": form,
-               "page": "contact",
+               "page": "Contact",
                "links": nav_links}
     return render(request, "contact.html", context)
 
@@ -104,7 +104,7 @@ def resume(request):
     md = markdown.Markdown(extensions=['markdown.extensions.meta'])
     html = md.convert(open("content/Resume.md").read())
     context = {"content": html,
-               "page": "resume",
+               "page": "Resume",
                "links": nav_links}
     return render(request, 'base.html', context)
 
@@ -114,7 +114,7 @@ def music(request):
     html = md.convert(open("content/music.md").read())
     context = {
         "content": html,
-        "page": "music",
+        "page": "Music",
         "links": nav_links
     }
     return render(request, 'base.html', context)
@@ -127,7 +127,7 @@ def github(request):
     org_repos = response2.json()
     context = {
         "github_repos": org_repos + repos,
-        "page": "github",
+        "page": "GitHub",
         "links": nav_links
     }
     return render(request, 'github.html', context)
