@@ -22,19 +22,27 @@ h1 {
   background-color: #f3f3f3;
 }
 .px-0 {
-  margin-left: 20vw;
-  margin-right: 20vw;
   width: 100%;
 }
 @media only screen and (min-width: 720px) {
   /* Desktop screen settings */
   .px-0 {
     width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .card {
+    width: 35%
   }
 }
 @media only screen and (min-width: 1440px) {
   .px-0 {
     width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .card {
+    width: 25%;
   }
 }
 .navbar-brand {
@@ -68,7 +76,6 @@ a:hover {
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:50vw;
   min-height:400px;
   box-shadow:0 20px 50px rgba(0,0,0,.1);
   border-radius:10px;
