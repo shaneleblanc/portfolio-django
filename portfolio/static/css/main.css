@@ -42,7 +42,7 @@ h1 {
     margin-right: 25%;
   }
   .card {
-    width: 25%;
+    width: 30%;
   }
 }
 .navbar-brand {
@@ -81,7 +81,6 @@ a:hover {
   border-radius:10px;
   transition:0.5s;
   background:rgba(255,255,255,1);
-  background-image:gradien
 }
 .card:hover {
   box-shadow:0 30px 70px rgba(0,0,0,.2);
@@ -91,9 +90,8 @@ a:hover {
   border: 2px solid darkgrey;
 }
 .card .box {
-  position:absolute;
-  top:40%;
-  left:0;
+  position:relative;
+  top:21vh;
   background-position-y: top;
   transform:translateY(-50%);
   text-align:center;
