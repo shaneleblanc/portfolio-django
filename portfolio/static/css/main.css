@@ -34,6 +34,9 @@ h1 {
   .card {
     width: 35%
   }
+  .built-with {
+    width: 700px;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .px-0 {
@@ -43,6 +46,9 @@ h1 {
   }
   .card {
     width: 30%;
+  }
+  .built-with {
+    width: 700px;
   }
 }
 .navbar-brand {
@@ -149,4 +155,13 @@ a:hover {
 .card .box ul li:hover a {
   color:#7b45a2;
   transform:rotateY(360deg);
+}
+
+.built-with > img {
+  width: 200px;
+}
+.built-with {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
