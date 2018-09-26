@@ -157,11 +157,13 @@ a:hover {
   transform:rotateY(360deg);
 }
 
-.built-with > img {
-  width: 200px;
-}
+
 .built-with {
   margin-left: auto;
   margin-right: auto;
+  width: 200px;
+}
+
+div.built-with img {
   width: 200px;
 }
