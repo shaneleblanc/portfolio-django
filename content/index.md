@@ -9,11 +9,11 @@ title: Home
         <p> Bay area artist with a passion for programming and computers.</p>
         <span>
             <ul>
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/shaneleblanc"><i class="fab fa-github" title="GitHub"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/shane-leblanc"><i class="fab fa-linkedin" title="LinkedIn"></i></a></li>
+                <li><a href="https://soundcloud.com/lucky-cloud"><i class="fab fa-soundcloud" title="SoundCloud"></i></a></li>
+                <li><a href="https://www.facebook.com/shane.leblanc.359"><i class="fab fa-facebook" title="Facebook"></i></a></li>
+                <li><a href="https://instagram.com/finallyshane"><i class="fab fa-instagram" title="Instagram"></i></a></li>
             </ul>
         </span>
     </div>
